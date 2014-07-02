@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Ex12 {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		double balance, interestRate, interest; 
 		
 		System.out.println("Enter the balance and the interest rate: ");
