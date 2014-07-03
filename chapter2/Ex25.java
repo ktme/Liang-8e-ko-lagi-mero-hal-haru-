@@ -1,11 +1,12 @@
 import java.util.Scanner; 
 public class Ex25 {
   public static void main(String[] args) {
-	int offset=0;
-	Scanner input = new Scanner(System.in); 
-	offset = input.nextInt()*60*60; // convert offset hours to seconds
+    int offset=0;
+    Scanner input = new Scanner(System.in); 
+    //I input -5 as my offset
+    offset = input.nextInt()*60*60; // convert offset hours to seconds
 	
-	System.out.println("Enter offset to GMT: ");
+    System.out.println("Enter offset to GMT: ");
     // Obtain the total milliseconds since midnight, Jan 1, 1970
     long totalMilliseconds = System.currentTimeMillis();
 
