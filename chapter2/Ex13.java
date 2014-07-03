@@ -19,7 +19,6 @@ public class Ex13 {
 		
 		fututreInvestmentValue = investmentAmount * Math.pow((1+monthlyInterestRate),numberOfYears*12);
 		
-		
 		System.out.println("Accumulated value is: "+ fututreInvestmentValue);
 		
 	}
