@@ -1,7 +1,7 @@
 import java.util.Scanner; 
 
 public class Ex1 {
-	public static void main(String[] args){
+	public static void main(String[] args) { 
 		//solve quadratic
 		double a, b, c; // ax^2+bx+c = 0
 		double discriminant; 
