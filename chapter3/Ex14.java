@@ -4,7 +4,7 @@ public class Ex14 {
 	public static void main (String[] args){
 		int guess, ans;
 		Scanner input = new Scanner(System.in);
-		guess= (int)(Math.random()*100);
+		guess= (int)(Math.random()*2);
 		
 		System.out.println("Enter 0 or 1: " );
 		ans = input.nextInt();
