@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex24 {
 	public static void main(String[] args){
-		double v, a, length; // v- velocity, a-acceleration
+		double v, a, length; //v- velocity, a-acceleration
 		
 		Scanner input = new Scanner(System.in); 
 		System.out.println("Enter the velocity, the acceleration: ");
