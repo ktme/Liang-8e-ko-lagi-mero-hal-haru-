@@ -23,8 +23,5 @@ public class Ex1 {
 		System.out.println("The number of negatives is: " + negatives);
 		System.out.println("Total: " + total);
 		System.out.println("Average: " + (double)total/count);
-		
-		
-
 	}
 }
