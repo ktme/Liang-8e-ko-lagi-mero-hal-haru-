@@ -6,7 +6,7 @@ public class Ex4 {
 		
 		while (miles <= 199) {
 			kms = miles*1.609;
-			System.out.println(miles + "\t\t" + kms);
+			System.out.println(miles + "\t\t\t" + kms);
 			miles++;
 		}
 	}
