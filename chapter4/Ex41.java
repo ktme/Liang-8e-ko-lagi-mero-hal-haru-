@@ -11,9 +11,9 @@ public class Ex41{
 				max = number; 
 				count = 1;               // set count to 1 when a new max is found
 			}
-			else if (number == max) {
-				count++;                // if there's another max, increment count
+			else if (number == max) {         // if there's another max, increment count
 			}
+				count++;                
 		}
 		
 		System.out.println("Max: "+max);
