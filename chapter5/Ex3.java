@@ -1,6 +1,14 @@
+import java.util.Scanner; 
+
 public class Ex3 {
 	public static void main(String[] args){
-		System.out.println(reverse(234));
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer: ");
+		int number = input.nextInt();
+		
+		if(isPalindrome(number)) System.out.println("Palindrome.");
+		else System.out.println("Not a palindrome.");
 	}
 	
 	public static int reverse(int n){
@@ -10,7 +18,10 @@ public class Ex3 {
 			reverse = digit + reverse*10;
 			n/=10;
 		}
-		
 		return reverse;
+	}
+	
+	public static boolean isPalindrome(int n){
+		return (n==reverse(n));
 	}
 }
