@@ -8,7 +8,6 @@ public class Ex13{
 	}
 	public static double m(int i) {
 		double sum = 0;
-		
 		for (int j = 1; j <= i; j++ ){
 			sum+= (double)j/(j+1);
 		}
