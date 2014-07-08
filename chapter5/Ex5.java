@@ -12,9 +12,9 @@ public class Ex5 {
 		displaySorted(num1,num2,num3);
 		
 	}
-	
+	 //assume 3 distinct numbers are passed 
 	public static void displaySorted(double num1, double num2, double num3){
-		if (num1<num2 && num1<num3){ //assuming 3 distinct numbers are passed 
+		if (num1<num2 && num1<num3){
 			System.out.print(num1+" < ");
 			if (num2<num3) System.out.print(num2+" < "+num3);
 			else System.out.print(num3+" < "+num2);
