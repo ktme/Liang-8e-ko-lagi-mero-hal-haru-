@@ -67,7 +67,7 @@ public class Ex33 {
 				else days -=28;
 			}	
 		}
-		return days+1;
+		return days+1; //current day is always off by one
 	}
 	
 	public static int daysRemaining(){
