@@ -1,4 +1,4 @@
-public class Ex26 {
+public class Ex26{
 	public static void main(String[] args){
 		int count = 1, i = 2;
 		while (count <= 100) { //Find 100 Palindromic Primes
