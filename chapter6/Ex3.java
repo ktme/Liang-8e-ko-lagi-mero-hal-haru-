@@ -4,12 +4,9 @@ public class Ex3{
 		int occurrence[] = new int[100];
 		int count = 0;
 		System.out.println("Enter numbers between 1 and 100(inclusive): ");
-		
 		while (inArray(occurrence) != 0)
 			count++;
-		
 		System.out.println("You input "+count+" numbers");
-		
 		displayArray(occurrence);
 	}
 	
