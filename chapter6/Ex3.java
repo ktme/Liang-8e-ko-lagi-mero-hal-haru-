@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex3 {
+public class Ex3{
 	public static void main(String[] args){
 		int occurrence[] = new int[100];
 		int count = 0;
