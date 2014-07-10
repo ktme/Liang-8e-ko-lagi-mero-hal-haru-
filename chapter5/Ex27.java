@@ -1,12 +1,12 @@
 public class Ex27 {
 	public static void main(String[] args){
-		int count = 0, i = 2;
+		int count = 1, i = 2;
 		while (count <= 100) { //Find 100 Emirps
 			if (!isReversible(i)){
 				if(isPrime(i) && isPrime(reverseNum(i))){
-					count++;
 					System.out.printf("%8d",i);
 					if(count%10==0)	System.out.println();
+					count++;
 				}
 			}
 			i++; 
