@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class Ex2 {
 	public static void main(String[] args){
 		int num[] = new int[10];
+		
 		System.out.print("Enter 10 integers: ");
 		inputNumbers(num);
 		reverseDisplay(num);
+		
 	}
 	
 	public static void inputNumbers(int[] num){
