@@ -9,17 +9,22 @@ public class Ex29 {
 		else if (sum == 7 || sum == 11)
 			System.out.println("You win.");
 		else {
-			System.out.println("You are awarded a point.");
+			while(true){
+				System.out.println("You are awarded a point.");
 			
-			point = dieSum();
-			System.out.println("point is "+point);
-			sum = dieSum();
+				point = dieSum();
+				System.out.println("point is "+point);
+				sum = dieSum();
 			
-			if (sum == 7) System.out.println("You loose.");
-			else if(sum == point) {
-				System.out.println("You win.");
+				if (sum == 7) {
+					System.out.println("You loose.");
+					break;
+				}
+				else if(sum == point) {
+					System.out.println("You win.");break;
+				}
+				else System.out.println("You loose.");
 			}
-			else System.out.println("You loose.");
 		}
 	}
 	public static int dieSum(){
