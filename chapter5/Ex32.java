@@ -21,16 +21,17 @@ public class Ex32 {
 		int sum = die1+die2;
 		return sum;
 	}
+	
 	public static boolean isWin() {
 		int sum = dieSum();
 		int point;
 		if (sum == 7 || sum == 11) return true;
-        else if (sum == 2 || sum == 3 || sum == 12) return false;
+        	else if (sum == 2 || sum == 3 || sum == 12) return false;
 		
 		while (true) {
-            point = dieSum();
-            if (point == 7) return false;
-            else if  (point == sum) return true;
-        } 
-    }
+            		point = dieSum();
+            		if (point == 7) return false;
+            		else if  (point == sum) return true;
+        	} 
+    	}
 }
