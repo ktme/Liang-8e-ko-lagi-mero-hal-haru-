@@ -8,7 +8,6 @@ public class Ex14 {
 		for(int i = 0; i< numbers.length-1; i++){
 			g = regularGCD(numbers[i+1],numbers[i]);
 			numbers[i+1] = g; 
-			System.out.println(g);
 		}
 		return g;
 	}
